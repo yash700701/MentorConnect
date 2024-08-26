@@ -22,6 +22,14 @@ function submitForm(e) {
 
   //alert:
   document.querySelector(".signup_alert").style.display = "block";
+
+  //removing alert:
+  setTimeout(() => {
+    document.querySelector(".signup_alert").style.display = "none";
+  }, 1500);
+
+  //reset form:
+  document.getElementById("signupForm").reset();
 }
 
 const saveInfo = (Username, Email, Password) => {
