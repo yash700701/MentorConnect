@@ -1,248 +1,263 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #ffffff;
-    justify-content: center;
-    align-items: center;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
 }
-.header{
-    background-color: #f9f5f2;
-    padding: 15px 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+.header {
+  background-color: #f9f5f2;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
 }
-.container{
-    height: 35px;
-    display: flex;
-    align-items: center;
+.container {
+  height: 35px;
+  display: flex;
+  align-items: center;
 }
-.logo{
-    height: 55px;
-    width: 170px;
-    background-image: url("images/Black And White Aesthetic Minimalist Modern Simple Typography Coconut Cosmetics Logo.png");
-    background-color: aqua;
-    background-size: cover;
+.logo {
+  height: 55px;
+  width: 170px;
+  background-image: url("images/Black And White Aesthetic Minimalist Modern Simple Typography Coconut Cosmetics Logo.png");
+  background-color: aqua;
+  background-size: cover;
 }
-.nav-links { 
-    margin-left: 430px;
-    list-style: none;
-    display: flex;
+.nav-links {
+  margin-left: 430px;
+  list-style: none;
+  display: flex;
 }
 .nav-links li {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 .nav-links a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    transition: backgroung-color 0.3s ease-in ;
+  color: #000000;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: backgroung-color 0.3s ease-in;
 }
 .nav-links a:hover {
-    color: #ffffff;
-    background-color: #282828;
-    border-radius: 5px;
+  color: #ffffff;
+  background-color: #282828;
+  border-radius: 5px;
 }
 .bg {
-    height: 600px;
-    margin-top: 10px;
-    background-image: url("images/Desktop - 1.png");
-    background-size: cover;
+  height: 600px;
+  margin-top: 10px;
+  background-image: url("images/Desktop - 1.png");
+  background-size: cover;
 }
 .mainHeading {
-    height: 100px;
-    width: 500px;
-    /* background-color: aqua; */
-    padding-top: 80px;
-    font-family: DM Serif Text;
-    font-size: 50px;
-    padding-left: 70px;
+  height: 100px;
+  width: 500px;
+  /* background-color: aqua; */
+  padding-top: 80px;
+  font-family: DM Serif Text;
+  font-size: 50px;
+  padding-left: 70px;
 }
 .searchBar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .search {
-    height: 50px;
-    width: 500px;
-    margin-left: 70px;
-    margin-top: 170px;
-    border-radius:2dvh;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
-    border: none;
+  height: 50px;
+  width: 500px;
+  margin-left: 70px;
+  margin-top: 170px;
+  border-radius: 2dvh;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border: none;
 }
 .searchButton {
-    height: 45px;
-    width: 50px;
-    border-radius: 0 2dvh 2dvh 0;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    margin-top: 170px;
-    margin-left: -53px;
-
+  height: 45px;
+  width: 50px;
+  border-radius: 0 2dvh 2dvh 0;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  margin-top: 170px;
+  margin-left: -53px;
 }
 
 /* ......................... */
 .form-container {
-    background-color: rgb(255, 255, 255);
-    padding: 2rem;
-    margin-top: 80px;
-    margin-left: 400px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    width: 100%;
-    max-width: 400px;    
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  margin-top: 80px;
+  margin-left: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
 }
 
 .signup-form h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
 }
 
 .signup-form label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #333;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
 }
 
 .signup-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
 }
 
 .signup-form input:focus {
-    border-color: #007bff;
-    outline: none;
+  border-color: #007bff;
+  outline: none;
 }
 
 .submit-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .submit-button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .login-link {
-    text-align: center;
-    margin-top: 1rem;
-    color: #666;
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
 }
 
 .login-link a {
-    color: #007bff;
-    text-decoration: none;
+  color: #007bff;
+  text-decoration: none;
 }
 
 .login-link a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* ........................... */
 .login-form-container {
-    background-color: white;
-    padding: 2rem;
-    margin-top: 100px;
-    margin-left: 400px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    width: 100%;
-    max-width: 400px;
+  background-color: white;
+  padding: 2rem;
+  margin-top: 100px;
+  margin-left: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
 }
 
 .login-form h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
 }
 
 .login-form label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #333;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
 }
 
 .login-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
 }
 
 .login-form input:focus {
-    border-color: #007bff;
-    outline: none;
+  border-color: #007bff;
+  outline: none;
 }
 
 .submit-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .submit-button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .signup-link {
-    text-align: center;
-    margin-top: 1rem;
-    color: #666;
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
 }
 
 .signup-link a {
-    color: #007bff;
-    text-decoration: none;
+  color: #007bff;
+  text-decoration: none;
 }
 
 .signup-link a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* ............................... */
 .paragraph-container {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    max-width: 1000px;
-    margin-top: 100px;
-    margin-left: 120px;
-    text-align: center;
-    line-height: 1.6;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  max-width: 1000px;
+  margin-top: 100px;
+  margin-left: 120px;
+  text-align: center;
+  line-height: 1.6;
 }
 
 .paragraph-container p {
-    color: #333;
-    font-size: 20px;
-    font-family: DM Serif Text;
-    font-weight: 100;
-    margin: 0;
+  color: #333;
+  font-size: 20px;
+  font-family: DM Serif Text;
+  font-weight: 100;
+  margin: 0;
 }
 
+.signup_alert {
+  width: 100%;
+  color: black;
+  height: 30px;
+  background: #007bff;
+  opacity: 0.7;
+  padding: 20px, 20px;
+  margin: 10px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 800;
+  display: none;
+}
