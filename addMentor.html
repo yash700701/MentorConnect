@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <navbar>
+        <header class="header">
+            <div class="container">
+                <div class="logo"></div>
+                <ul class = "nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <!-- <li><a href="#">Mentors</a></li> -->
+                    <li><a href="addMentor.html">Become a Mentor</a></li>
+                    <li>|</li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </header>
+    </navbar>
+    <div class="mentorFormContainer">
+        <form class="custom-form">
+            <h2>Tell Us About You</h2>
 
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="profession">Profession</label>
+            <select id="status" name="status" required ">
+                <option value="">Select...</option>
+                <option value="Market research analyst">Market research analyst</option>
+                <option value="Web developer">Web developer</option>
+                <option value=" Mechanical engineer"> Mechanical engineer</option>
+                <option value=" IT manager"> IT manager</option>
+                <option value=" Software engineer"> Software engineer</option>
+                <option value=" Video game designer"> Video game designer</option>
+                <option value="Content writer">Content writer</option>
+                <option value="Social media strategist">Social media strategist</option>
+            </select>
+
+            <label for="about">About You</label>
+            <input type="text" id="about" name="about" placeholder="Tell me something about you">
+
+            <label for="linkedin">LinkedIn Profile</label>
+            <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/your-profile">
+
+            <button type="submit" class="mentorSubmitButton">Submit</button>
+        </form>
+    </div>
+    <div style="height: 50px;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

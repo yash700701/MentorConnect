@@ -4,14 +4,16 @@ html {
   padding: 0;
   font-family: "Arial", sans-serif;
   background-color: #ffffff;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .header {
   background-color: #f9f5f2;
   padding: 15px 0;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
 }
@@ -28,7 +30,7 @@ html {
   background-size: cover;
 }
 .nav-links {
-  margin-left: 430px;
+  margin-left: 520px;
   list-style: none;
   display: flex;
 }
@@ -245,19 +247,107 @@ html {
   font-weight: 100;
   margin: 0;
 }
-
+/* ...................................... */
 .signup_alert {
-  width: 100%;
-  color: black;
+  padding-left: 70px;
+  width: 60%;
+  color: rgb(12, 176, 0);
+  margin-left: 60px;
   height: 30px;
-  background: #007bff;
-  opacity: 0.7;
   padding: 20px, 20px;
   margin: 10px;
-  border: 2px solid black;
   text-align: center;
-  border-radius: 5px;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 15px;
   display: none;
+}
+
+
+/*.............................*/
+.mentorFormContainer {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-left: 420px;
+    margin-top: 100px;
+    max-width: 400px;
+   
+}
+
+.custom-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.custom-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.custom-form input,
+.custom-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.custom-form input:focus,
+.custom-form select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.mentorSubmitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mentorSubmitButton:hover {
+    background-color: #0056b3;
+}
+
+/* ...........footer */
+
+.footer {
+    height: 200px;
+    background-color: #000000;
+    border-radius: 60px 60px 0 0;
+}
+.contact {
+    height: 50px;
+    width: 200px;
+    /* background-color: #007bff; */
+    font-size: 30px;
+    margin-left: 70px;
+    color: white;
+    padding-top: 1px;
+}
+.mail {
+    margin-left: 70px;
+    margin-top: 40px;
+    color: rgb(122, 122, 122);
+}
+.contact-logo-container {
+    width: 200px;
+    margin-left: 39px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-logo-container a{
+    text-decoration: none;
 }
